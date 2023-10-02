@@ -36,7 +36,7 @@ namespace Tyuiu.DubrovinSN.Sprint2.Task0.V13
 
             Console.WriteLine("X - " + x);
             Console.WriteLine("Y - " + y);
-
+            //
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Результат                                                               *");
             Console.WriteLine("***************************************************************************");
