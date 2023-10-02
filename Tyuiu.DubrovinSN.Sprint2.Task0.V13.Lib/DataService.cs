@@ -19,7 +19,7 @@ namespace Tyuiu.DubrovinSN.Sprint2.Task0.V13.Lib
             res[4] = y + 1 == x;
             res[5] = x - 1430 == y;
             return res;
-            //
         }
     }
 }
+
