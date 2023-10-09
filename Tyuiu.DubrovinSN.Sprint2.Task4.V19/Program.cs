@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Tyuiu.DubrovinSN.Sprint2.Task3.V15.Lib;
+using Tyuiu.DubrovinSN.Sprint2.Task4.V19.Lib;
 
-namespace Tyuiu.DubrovinSN.Sprint2.Task3.V15
+namespace Tyuiu.DubrovinSN.Sprint2.Task4.V19
 {
     class Program
     {
@@ -16,27 +16,32 @@ namespace Tyuiu.DubrovinSN.Sprint2.Task3.V15
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
             Console.WriteLine("* Тема: Алгоритмы разветвляющейся структуры                               *");
-            Console.WriteLine("* Задание #3                                                              *");
-            Console.WriteLine("* Вариант #15                                                             *");
+            Console.WriteLine("* Задание #4                                                              *");
+            Console.WriteLine("* Вариант #19                                                             *");
             Console.WriteLine("* Выполнил: Дубровин Степан Николаевич | ИИПб-23-3                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая вычисляет требуемое значение функции Y с    *");
-            Console.WriteLine("* с использованием вложенных оператор if-else                            *");
+            Console.WriteLine("* Написать программу, которая вычисляет требуемое значение функции Z с    *");
+            Console.WriteLine("* с использованием тернарного оператора                                   *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Введите значение X");
-            int x = Convert.ToInt32(Console.ReadLine());
-            double res = ds.Calculate(x);
+            double x = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Введите значение Y");
+            double y = Convert.ToDouble(Console.ReadLine());
+
+            double res = ds.Calculate(x, y);
+
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Результат                                                               *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Значение функции Z - " + res);
+            Console.WriteLine("Значение функции - " + res);
 
             Console.ReadKey();
         }
